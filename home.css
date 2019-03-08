@@ -1,0 +1,174 @@
+body {
+  background-image: url("images/mdagpix-46.jpg");
+  background-size: cover;
+  background-color: #87c2e0;
+  background-position: 75% top;
+  background-position: 75% 150px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Bitter', sans-serif;
+  font-family: 'Forum', sans-serif;
+}
+
+@media (min-width: 900px) {
+  body {
+    background-position: center 40%;
+  }
+}
+
+.splash {
+  text-align: center;
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 16px;
+}
+
+@media (min-width: 900px) {
+  .splash {
+    margin: 0;
+    width: 660px;
+    padding-top: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .splash {
+    padding-left: 70px;
+  }
+}
+
+.splash h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 50px;
+  text-shadow: 1px 1px 1px #888;
+}
+
+.splash h1 span {
+  color: #A21C37;
+}
+
+@media (min-width: 900px) {
+  .splash h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+}
+
+.splash p {
+  line-height: 1.0;
+}
+
+@media (min-width: 900px) {
+  .splash p {
+    line-height: 1.2;
+  }
+}
+
+.splash .date, .splash .location {
+  margin: 0;
+  font-size: 24px;
+  text-shadow: 1px 1px 1px #888;
+}
+
+@media (min-width: 900px) {
+  .splash .date, .splash .location {
+    font-size: 28px;
+  }
+}
+
+.splash .location {
+  margin-bottom: 12px;
+}
+
+@media (min-width: 900px) {
+  .splash .location {
+    margin-bottom: 20px;
+  }
+}
+
+.splash a {
+  border-color: #c78665;
+  border-color: #c78665;
+  display: inline-block;
+  color: #c78665;
+  background: #c78665;
+  color: white;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+@media (min-width: 900px) {
+  .splash a {
+    font-size: 20px;
+  }
+}
+
+.splash a.btn:hover, .splash a.btn:active {
+  background: #81553e;
+  border-color: #81553e;
+}
+
+.splash .ribbon {
+  font-size: 18px;
+  width: 70%;
+  max-width: 280px;
+  position: relative;
+  background: #A21C37;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin: 15px auto 22px;
+}
+
+@media (min-width: 900px) {
+  .splash .ribbon {
+    max-width: 350px;
+    font-size: 20px;
+  }
+}
+
+.splash .ribbon:before, .splash .ribbon:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid #7b293a;
+  z-index: -1;
+}
+
+.splash .ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+}
+
+.splash .ribbon:after {
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+}
+
+.splash .ribbon .ribbon-content:before, .splash .ribbon .ribbon-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: #88020d transparent transparent transparent;
+  bottom: -1em;
+}
+
+.splash .ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+
+.splash .ribbon .ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+}
+
+.navbar-brand {
+  font-family: "Kaushan Script", cursive;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,186 @@
+$accent: #A81F3C;
+$accent: #9d000d;
+$accent: #A21C37;
+$button-color: #c78665;
+
+body {
+    background-image:url('images/mdagpix-46.jpg');
+    background-size:cover;
+    background-color: #87c2e0;
+    background-position: 75% top;
+    background-position: 75% 150px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Bitter', sans-serif;
+    font-family: 'Forum', sans-serif;
+    // padding-top: 16px;
+    @media(min-width: 900px) {
+        background-position: center 40%;
+
+    }
+}
+.splash {
+    text-align: center; 
+    // background: rgba(0,0,0,0.2);
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 16px;
+    @media(min-width: 900px) {
+        margin: 0;
+        width: 660px;
+        // width: 50%;
+        padding-top: 60px;
+        // text-align: left;
+    }
+    @media(min-width: 1200px) {
+        padding-left: 70px;
+    }
+    h1 {
+        font-family: "Kaushan Script", cursive;
+        font-size: 50px;
+        text-shadow: 1px 1px 1px #888;
+        span {
+            color: $accent;
+        }
+        @media(min-width: 900px) {
+            font-size: 70px;
+            margin-bottom: 20px;
+        }
+    }
+    p {
+        line-height: 1.0;
+        @media(min-width: 900px) {
+            line-height: 1.2;
+        }
+    }
+    .date, .location {
+        margin:0;
+        font-size: 24px;
+        text-shadow: 1px 1px 1px #888;
+        @media(min-width: 900px) {
+            font-size: 28px;
+        }
+    }
+    .location {
+        margin-bottom: 12px;
+        @media(min-width: 900px) {
+            margin-bottom: 20px;
+        }
+    }
+    a {
+        border-color: $button-color;
+        border-color: $button-color;
+        display: inline-block;
+        color: $button-color;
+        background: $button-color;
+        // background:black;
+        color: white;
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+        @media(min-width: 900px) {
+            font-size: 20px;
+        }
+        &.btn:hover, &.btn:active {
+            background: #81553e;
+            border-color: #81553e;
+        }
+    }
+    .ribbon {
+        font-size: 18px;
+        width: 70%;
+        max-width: 280px;
+        position: relative;
+        background: $accent;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0; 
+        margin: 15px auto 22px; 
+        @media(min-width: 900px) {
+            max-width: 350px;
+            font-size: 20px;
+        }
+    }
+    .ribbon:before, .ribbon:after {
+        content: "";
+        position: absolute;
+        display: block;
+        bottom: -1em;
+        border: 1.5em solid #7b293a;
+        z-index: -1;
+    }
+    .ribbon:before {
+        left: -2em;
+        border-right-width: 1.5em;
+        border-left-color: transparent;
+    }
+    .ribbon:after {
+        right: -2em;
+        border-left-width: 1.5em;
+        border-right-color: transparent;
+    }
+    .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+        content: "";
+        position: absolute;
+        display: block;
+        border-style: solid;
+        border-color: #88020d transparent transparent transparent;
+        bottom: -1em;
+    }
+    .ribbon .ribbon-content:before {
+        left: 0;
+        border-width: 1em 0 0 1em;
+    }
+    .ribbon .ribbon-content:after {
+        right: 0;
+        border-width: 1em 1em 0 0;
+    }
+    
+}
+// .ribbon-content {
+//     background: $accent;
+//     display: inline-block;
+//     // width: 300px;
+//     width: 60%;
+//     height: 40px;
+//     line-height: 40px;
+//     position: relative;
+// }
+// .ribbon .ribbon-content::before {
+//   content: '';
+//   border-left: 20px solid transparent;
+//   border-top: 20px solid $accent;
+//   border-bottom: 20px solid $accent;
+//   border-right: 0;
+
+//    border-right: 20px solid $accent;
+//   border-top: 20px solid transparent;
+//   border-bottom: 20px solid transparent;
+//   border-left: 0;
+
+//   position: absolute;
+//   left: -20px;
+// }
+
+// .ribbon .ribbon-content::after {
+//   content: '';
+//   border-left: 20px solid $accent;
+//   border-top: 20px solid transparent;
+//   border-bottom: 20px solid transparent;
+//   border-right: 0;
+  
+// //   border-left: 0;
+// //   border-top: 20px solid $accent;
+// //   border-bottom: 20px solid $accent;
+// //   border-right: 20px solid transparent;
+
+  
+//   position: absolute;
+//   right: -20px;
+// }
+
+.navbar {
+    &-brand {
+        font-family: "Kaushan Script", cursive;
+    }
+}
