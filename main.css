@@ -59,7 +59,7 @@ header h1 {
 
 @media (min-width: 768px) {
   header h1 {
-    text-shadow: 0.5px 0.5px 0.5px #000;
+    text-shadow: 0.75px 0.75px 0.75px #000;
     font-size: 64px;
   }
 }
@@ -80,6 +80,19 @@ header h1 {
   background-image: url("images/mdagpix-17.jpg");
   background-size: cover;
   background-position: center 1%;
+  padding: 3rem 1rem;
+}
+
+@media (min-width: 576px) {
+  .rsvp header {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .rsvp header {
+    padding: 5rem 2rem;
+  }
 }
 
 .rsvp .section {
@@ -172,12 +185,12 @@ header h1 {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 2rem 1rem;
+  padding: 5rem 1rem;
 }
 
 @media (min-width: 576px) {
   .when-where header .overlay {
-    padding: 4rem 2rem;
+    padding: 6rem 2rem;
   }
 }
 
@@ -248,12 +261,12 @@ header h1 {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  padding: 2rem 1rem;
+  padding: 5rem 1rem;
 }
 
 @media (min-width: 576px) {
   .wedding-party header .overlay {
-    padding: 4rem 2rem;
+    padding: 6rem 1rem;
   }
 }
 
