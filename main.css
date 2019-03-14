@@ -233,4 +233,57 @@ header h1 {
   text-align: center;
   padding: 20px 0;
 }
+
+.wedding-party header {
+  background-image: url("images/inside.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.wedding-party header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 576px) {
+  .wedding-party header .overlay {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .wedding-party header .overlay {
+    padding: 7rem 2rem;
+  }
+}
+
+.wedding-party h3 {
+  font-size: 1.3rem;
+  color: #A21C37;
+  font-family: 'Kaushan Script';
+}
+
+.wedding-party h3.secondary {
+  margin-bottom: 1.1rem;
+}
+
+.wedding-party h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #c78665;
+}
+
+.wedding-party .section {
+  text-align: center;
+}
+
+.wedding-party .section .row {
+  margin-bottom: 1rem;
+}
 /*# sourceMappingURL=main.css.map */
