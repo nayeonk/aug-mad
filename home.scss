@@ -74,12 +74,16 @@ body {
         display: inline-block;
         color: $button-color;
         background: $button-color;
+        margin: 0px;
+        min-width: 90px;
         // background:black;
         color: white;
-        padding-left: 1.6rem;
-        padding-right: 1.6rem;
+        // padding-left: 1.6rem;
+        // padding-right: 1.6rem;
         @media(min-width: 900px) {
             font-size: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
         }
         &.btn:hover, &.btn:active {
             background: #81553e;

@@ -19,6 +19,15 @@ body {
   }
 }
 
+.gold {
+  color: #c78665;
+}
+
+.navbar {
+  font-size: 16px;
+  background-color: #3e051c;
+}
+
 .navbar-brand {
   font-family: "Kaushan Script", cursive;
 }
@@ -64,6 +73,7 @@ header h1 {
 .section .first-letter {
   font-weight: bold;
   font-size: 44px;
+  color: #A21C37;
 }
 
 .rsvp header {
@@ -100,11 +110,6 @@ header h1 {
   background-image: url("images/mdagpix-51.jpg");
   background-size: cover;
   background-position: center center;
-}
-
-.our-story header h1 {
-  text-shadow: 0.5px 0.5px 0.5px #000;
-  color: white;
 }
 
 .our-story .mobile-only {
@@ -151,5 +156,81 @@ header h1 {
 .our-story .full-width {
   width: 100%;
   margin-bottom: 10px;
+}
+
+.when-where header {
+  background-image: url("images/barn.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.when-where header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 576px) {
+  .when-where header .overlay {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .when-where header .overlay {
+    padding: 7rem 2rem;
+  }
+}
+
+.when-where .section h2 {
+  font-size: 1.3rem;
+  color: #A21C37;
+  font-weight: bold;
+}
+
+.when-where .section a {
+  color: #c78665;
+}
+
+.when-where .section img {
+  width: 100%;
+}
+
+.when-where .section .btn {
+  display: block;
+  width: 100px;
+  margin: 10px auto;
+  color: white;
+}
+
+.when-where .section .btn:hover {
+  color: white;
+}
+
+.when-where .section .logos {
+  text-align: center;
+}
+
+.when-where .section .logos a {
+  display: inline-block;
+  width: 130px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .when-where .section .logos a {
+    width: 150px;
+    margin: 0px 10px;
+  }
+}
+
+.when-where .section .hotel {
+  text-align: center;
+  padding: 20px 0;
 }
 /*# sourceMappingURL=main.css.map */
