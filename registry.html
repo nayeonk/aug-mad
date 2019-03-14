@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>RSVP | Agustin & Madeline </title>
+    <title>Registry | Agustin & Madeline </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|PT+Sans|Forum" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Forum" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
 </head>
-<body class="rsvp">
+
+<body class="registry">
     <nav class="navbar navbar-expand-md navbar-dark">
         <a class="navbar-brand" href="index.html">Agustin & Madelaine</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -30,10 +32,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="wedding-party.html">Wedding Party</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="registry.html">Registry</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="rsvp.html">RSVP</a>
                 </li>
             </ul>
@@ -41,15 +43,26 @@
     </nav>
 
     <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1>RSVP</h1>
+        <div class="overlay">
+            <h1>Registry</h1>
         </div>
     </header>
 
-    <div class="section">
-        <iframe class="rsvp-form"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSd503ohyiOKOonlZ16S6GoBSG7dz1DZcVArwJ-w8vdsK_tPug/viewform?embedded=true"
-             frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <div class="section container-fluid">
+        <p>Your presence at our wedding is the greatest gift. However, should you wish to honour us with a gift, monetary gifts are
+        sincerely requested. We are also registered at <a href="https://www.amazon.com" target="_blank">Amazon</a>, <a href="https://www.macys.com" target="_blank">Macy’s</a>, and <a href="https://www.target.com" target="_blank">Target</a>.</p>
+
+        <div class="row py-md-4">
+            <div class="col col-md-4">
+                <a href="#" target="_blank"><img src="images/amazon.png"/></a>
+            </div>
+            <div class="col col-md-4">
+                <a href="#" target="_blank"><img src="images/macys.png" /></a>
+            </div>
+            <div class="col col-md-4">
+                <a href="#" target="_blank"><img src="images/target.png" /></a>
+            </div>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -62,4 +75,5 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
