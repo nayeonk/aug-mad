@@ -344,4 +344,51 @@ header h1 {
 .registry .section img {
   width: 100%;
 }
+
+.things-to-do header {
+  background-image: url("images/mdagpix-23.jpg");
+  background-size: cover;
+  background-position: center 60%;
+  position: relative;
+}
+
+.things-to-do header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 576px) {
+  .things-to-do header .overlay {
+    padding: 3rem 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .things-to-do header .overlay {
+    padding: 5rem 2rem;
+  }
+}
+
+.things-to-do .section h2 {
+  font-size: 1.3rem;
+  color: #A21C37;
+  font-weight: bold;
+}
+
+.things-to-do .section h2 a {
+  color: #A21C37;
+}
+
+.things-to-do .section h2 a:hover {
+  color: #c78665;
+}
+
+.things-to-do .section img {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
